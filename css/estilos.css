@@ -1,0 +1,312 @@
+
+body {
+	font-family: 'Merienda', cursive;
+	font-size: 16px;
+
+}
+header {
+	background-color: #604214;
+	text-align: right;
+}
+header figure {
+	float: left;
+	margin-left: 30px;
+}
+header figure img {
+	width: 75px;
+	height: 77px;
+    
+}
+header h1 {
+	color: #f7f7f7;
+	font-size: 1.6em;
+	float: left;
+	display: block;
+	margin: 7px 80px 0px 50px;
+}
+header nav ul {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	list-style: none;
+}
+header nav ul li {
+	height: 35px;
+	margin-top: 10px;
+	width: 100%;
+	display: inline-block;
+}
+
+header nav ul li a{
+	color:#f7f7f7;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 15px 25px;
+}
+section  {
+	margin-top: 50px;
+	background: url(../imagenes/banner2.jpg);
+	
+	
+}	
+
+section article.receta {
+	border-radius: 0px 0px 15px 15px;
+	border-style: solid;
+	border-width: 2px;
+	display: inline-block;
+	font-size:1.2;
+	margin: 50px 0px 20px 10%;
+	position: relative;
+	vertical-align: top;
+	width: 85%;
+
+	box-shadow: 0px 0px 15px #f7f7f7;
+}
+
+section article.receta figure {
+	float: left;
+	margin-top: -50px;
+	margin-left: -30px;
+	
+}
+
+
+section article.receta figure img {
+	width: 180px;
+	height: 140px;
+	border-radius: 50%;
+	border-width: 5px;
+	border-style: solid;
+}
+
+section article.receta div {
+	width: 90%;
+	margin: 30px 4% 10px 5%;
+	border-width: 2px;
+	border-style: solid;
+	position: relative;
+	padding-top: 20px;
+	font-size: 0.9em;
+	border-radius: 15px;
+}
+section article.receta div span {
+	position: absolute;
+	top: -15px;
+	left:  10px;
+	line-height: 20px;
+	border-radius: 15px;
+	text-decoration: underline;
+	padding: 3px 10px;
+	
+}
+section article.receta div ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+section article.receta div ul li {
+	font-weight: bolder;
+	vertical-align: middle;
+	display: inline-block;
+	margin: 5px 3%;
+	width: 26%;
+}
+
+section article.receta h2 {
+	padding: 0px;
+	text-align: right;
+	margin: 15px 20px 0px 165px;
+	font-size: 1.5em;
+	
+
+}
+section article.receta p{
+	font-size: .8em;
+	text-align: justify;
+	margin: 15px 10px 5px 25px;
+	
+
+}
+
+
+section article.receta span.tipo {
+	position: absolute;
+	border-width: 2px;
+	border-style: solid;
+	top: -38px;
+	right: -2px;
+	height: 30px;
+	line-height: 30px;
+	padding: 2px 10px;
+	border-radius: 15px 15px 0px 0px;
+	font-weight: bolder;
+	color: #f7f7f7;
+}
+/******************************************/
+/***** colores frutas *********************/
+/******************************************/
+
+section article.frutas,
+section article.frutas figure img,
+section article.frutas div,
+section article.frutas span.tipo {
+	border-color: #082e08;
+}
+
+section article.frutas h2 {
+	color: #154419;
+}
+section article.frutas span.tipo,
+section article.frutas div,
+section article.frutas div span {
+	background-color: #154419;
+}
+section article.frutas p{
+	color: #3e7242;
+}
+section article.frutas {
+	background-color: #c0ee90;
+}
+section article.frutas div span,
+section article.frutas div ul li {
+	color: #9cd95c;
+}
+
+/******************************************/
+/***** colores chocolates *********************/
+/******************************************/
+
+section article.chocolates,
+section article.chocolates figure img,
+section article.chocolates div,
+section article.chocolates span.tipo {
+	border-color: #1b0c02;
+}
+
+section article.chocolates h2 {
+	color: #5a3107;
+}
+section article.chocolates span.tipo,
+section article.chocolates div,
+section article.chocolates div span {
+	background-color: #5a3107;
+}
+section article.chocolates p{
+	color: #97521e;
+}
+section article.chocolates {
+	background-color: #829178;
+}
+section article.chocolates div span,
+section article.chocolates div ul li {
+	color: #f5cba2;
+}
+
+/******************************************/
+/***** colores cremas *********************/
+/******************************************/
+
+section article.cremas,
+section article.cremas figure img,
+section article.cremas div,
+section article.cremas span.tipo {
+	border-color: #020f2b;
+}
+
+section article.cremas h2 {
+	color: #082158;
+}
+section article.cremas span.tipo,
+section article.cremas div,
+section article.cremas div span {
+	background-color: #082158;
+}
+section article.cremas p{
+	color: #335093;
+}
+section article.cremas {
+	background-color: #81BEF7;
+}
+section article.cremas div span,
+section article.cremas div ul li {
+	color: #A9E2F3;
+}
+
+
+
+section div.news {
+	width: 30%;
+	background-color: white;	
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-right: 20px;
+	float: right;
+	padding-bottom: 20px;
+	display: none;
+}
+section div.news article.post figure {
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;	
+}
+
+section div.news article.post figure img{
+	width: 70px;
+
+}
+section div.news h2{
+	text-align: center;
+}
+
+
+section div.news p {
+	font-style: italic;
+	font-size: 0.8em;
+	text-align: justify;
+	margin: 5px 5% 20px 5%;
+}
+section div.news video {
+	width: 90%;
+	margin: 0px 5%;
+}
+
+section div.news article.post {
+	width: 95%;
+	margin-left: 2%;
+	margin-top: 25px;
+	border-top: 2px solid #440a4e;
+}
+
+
+@media screen and (min-width: 480px) {
+
+	header nav ul li {
+		width: 22%;
+	}
+
+}
+	
+@media screen and (min-width: 767px) {
+
+	header nav ul li {
+		width: 8%;
+	}
+	section article.receta {
+		width: 40%;
+		margin: 50px 3% 20px 6%;
+	}
+
+}
+
+
+@media screen and (min-width: 950px) {
+
+	section article.receta {
+		width: 26%;
+		margin: 50px 1% 20px 5%;
+	}
+	section div.news {
+		display: inline;
+	}
+  }
